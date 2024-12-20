@@ -13,10 +13,10 @@ Features:
      - Contact form functionality  
 
 Technologies Used:  
-  Mention the languages/frameworks used, e.g., "HTML, CSS, JavaScript, and Bootstrap."
+  Mention the languages/frameworks used, e.g., HTML, CSS, JavaScript, and Bootstrap.
 
 Installation:  
-  Add steps to set up the project locally, e.g., "Clone the repository, open `index.html` in a browser."
+  Add steps to set up the project locally, e.g., Clone the repository, open `index.html` in a browser.
 
 Contact:  
-     Provide your contact details or GitHub profile link for inquiries.
+     https://github.com/kashif118/TMUC-Web-Project
