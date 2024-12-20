@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashif Restaurant</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Kashif Restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Carousel Slides -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('assets/images/bg-1.jpg');">
+                <div class="carousel-caption">
+                    <h1>Endless Possibilities</h1>
+                    <p>Tasty, delicious food ready in our restaurant. We respect your test review.</p>
+                    <a href="#" class="btn btn-cta">Learn More</a>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('assets/images/bg-2.jpg');">
+                <div class="carousel-caption">
+                    <h1>The Perfect Dining Experience</h1>
+                    <p>Delight in every bite. Your satisfaction is our priority.</p>
+                    <a href="#" class="btn btn-cta">Explore Menu</a>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('assets/images/bg-3.jpg');">
+                <div class="carousel-caption">
+                    <h1>World-Class Chefs</h1>
+                    <p>Enjoy expertly crafted dishes made by our professional chefs.</p>
+                    <a href="#" class="btn btn-cta">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Side - Text -->
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to <strong>Kashif Restaurant</strong>, where flavor meets passion. We offer a variety of dishes crafted with the freshest ingredients and a commitment to quality. Whether you're dining with family, friends, or enjoying a quiet meal, we promise an unforgettable experience.
+                </p>
+                <p>
+                    Our chefs bring a unique blend of creativity and tradition to every plate, ensuring a perfect balance of taste and presentation. Visit us and savor the extraordinary.
+                </p>
+                <a href="#services" class="btn btn-cta mt-3">Explore Our Services</a>
+            </div>
+            <!-- Right Side - Image -->
+            <div class="col-md-6 text-center">
+                <img src="assets/images/about-story.jpg" alt="About Us" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="py-5 bg-dark text-light">
+    <div class="container">
+        <h2 class="text-center mb-4"><span class="text-warning">Menu</span></h2>
+        <h3 class="text-center fw-bold mb-4">Just Choose From The Best</h3>
+        
+        <!-- Icons Row -->
+        <div class="row text-center mb-5">
+            <div class="col">
+                <img src="assets/images/menu-5.png" alt="Dessert" width="50">
+                <p class="mt-2">Dessert</p>
+            </div>
+            <div class="col">
+                <img src="assets/images/menu-4.png" alt="Ice-Cream" width="50">
+                <p class="mt-2">Ice-Cream</p>
+            </div>
+            <div class="col">
+                <img src="assets/images/menu-3.png" alt="Shake" width="50">
+                <p class="mt-2">Shake</p>
+            </div>
+            <div class="col">
+                <img src="assets/images/menu-3.png" alt="Sandwich" width="50">
+                <p class="mt-2">Sandwich</p>
+            </div>
+            <div class="col">
+                <img src="assets/images/menu-2.png" alt="Pizza" width="50">
+                <p class="mt-2">Pizza</p>
+            </div>
+            <div class="col">
+                <img src="assets/images/menu-1.png" alt="Burger" width="50">
+                <p class="mt-2">Burger</p>
+            </div>
+        </div>
+
+        <!-- Featured Menu Items -->
+        <div class="row align-items-center">
+            <!-- Left Item -->
+            <div class="col-md-4 text-center">
+                <h5 class="fw-bold">Double Dekar</h5>
+                <p>This Mexican Style Burger is pumped out with flavor from chilli powder, cilantro & jalapeno pepper.</p>
+                <p class="fw-bold text-warning">$20.99</p>
+                <img src="assets/images/sandwitch-slider-1.png" alt="Double Dekar" width="150">
+            </div>
+
+            <!-- Centered Item -->
+            <div class="col-md-4 text-center">
+                <div class="p-4 bg-danger rounded text-light">
+                    <h5 class="fw-bold">Mexican Burger</h5>
+                    <p>This Mexican Style Burger is pumped out with flavor from chilli powder, cilantro & jalapeno pepper.</p>
+                    <p class="fw-bold text-warning">$10.99</p>
+                    <a href="#" class="btn btn-warning text-dark">
+                        <i class="bi bi-cart"></i> Add To Cart
+                    </a>
+                </div>
+                <img src="assets/images/sandwitch-slider-2.png" alt="Mexican Burger" width="150">
+            </div>
+
+            <!-- Right Item -->
+            <div class="col-md-4 text-center">
+                <h5 class="fw-bold">Chicken Burger</h5>
+                <p>This Mexican Style Burger is pumped out with flavor from chilli powder, cilantro & jalapeno pepper.</p>
+                <p class="fw-bold text-warning">$12.99</p>
+                <img src="assets/images/sandwitch-slider-3.png" alt="Chicken Burger" width="150">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service">
+                    <img class="img-thumbnail" src="assets/images/5.jpg" alt="Service 1">
+                    <h5 class="mt-2">Delicious Meals</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <img class="img-thumbnail" src="assets/images/5.jpg" alt="Service 2">
+                    <h5 class="mt-2">Custom Recipes</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service">
+                    <img class="img-thumbnail" src="assets/images/5.jpg" alt="Service 3">
+                    <h5 class="mt-2">Private Events</h5>
+                </div>
+            </div>
+        </div>
+           <div class="row text-center">
+            <div class="col-md-4">
+                <div class="p-3 border rounded shadow">
+                    <img class="img-thumbnail" src="assets/images/2.jpg" alt="Service 1">
+                    <h5 class="mt-3">Delicious Meals</h5>
+                    <p>Experience a variety of mouthwatering meals made fresh to order.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded shadow">
+                    <img class="img-thumbnail" src="assets/images/4.jpg" alt="Service 2">
+                    <h5 class="mt-3">Custom Recipes</h5>
+                    <p>We offer tailor-made recipes for your unique taste and style.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded shadow">
+                    <img class="img-thumbnail" src="assets/images/3.jpg" alt="Service 3">
+                    <h5 class="mt-3">Private Events</h5>
+                    <p>Host private events with personalized catering and service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="booking-section" id="contact">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-lg-6">
+                <h2 class="booking-title">Contact Us</h2>
+                <div class="booking-form">
+                    <form>
+                        <input type="text" class="form-control" placeholder="Your Name:" required>
+                        <input type="email" class="form-control" placeholder="Email:" required>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Telephone:" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="number" class="form-control" placeholder="Persons:" min="1" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" placeholder="Date:" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="time" class="form-control" placeholder="Time" required>
+                            </div>
+                        </div>
+                        <textarea class="form-control" rows="4" placeholder="Message:" required></textarea>
+                        <button type="submit" class="btn btn-book">BOOK NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- map -->
+  <section class="map-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-info">
+                        <h3>Our Location</h3>
+                        <p><i class="bi bi-geo-alt-fill"></i>542B I-11/4 Sector, Islamabad, Pakistan</p>
+                        <p><i class="bi bi-telephone-fill"></i>(+92) 318 9292518</p>
+                        <p><i class="bi bi-envelope-fill"></i>kashif@gmail.com</p>
+                        <p><i class="bi bi-clock-fill"></i>Opening Hours:</p>
+                        <p class="ms-4">Monday - Thursday: 10:00 AM - 7:00 PM</p>
+                        <p class="ms-4">Friday - Saturday: 10:00 AM - 3:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13289.125326809317!2d73.04750907058643!3d33.65669589181769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbe5fb9ff6a3d%3A0x1fa24b151ee1bfea!2sI-11%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1703150418850!5m2!1sen!2s"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row text-center">
+            <!-- Address -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="fw-bold">Address</h5>
+                <hr class="mx-auto" style="width: 50px; border: 2px solid red;">
+                <p>74 Left Street,<br>542B I-11/4 51 Islamabad.</p>
+            </div>
+            <!-- Timing -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="fw-bold">Timing</h5>
+                <hr class="mx-auto" style="width: 50px; border: 2px solid red;">
+                <p>
+                    <strong>Monday - Thursday</strong> 10:00 AM - 7:00 PM<br>
+                    <strong>Friday - Saturday</strong> 10:00 AM - 3:00 PM
+                </p>
+            </div>
+            <!-- Contact -->
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="fw-bold">Contact</h5>
+                <hr class="mx-auto" style="width: 50px; border: 2px solid red;">
+                <p>(+92) 318 9292518<br>kashif@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Social Media Icons -->
+            <div class="col-12 text-center">
+                <a href="#" class="text-light mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-google"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-dribbble"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-light mx-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; 2024 RESTURENT IS POWERED BY KASHIF WEB</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Navbar Scroll JS -->
+<script>
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+</script>
+</body>
+</html>
